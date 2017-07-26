@@ -23,8 +23,8 @@ font-family: 'Electrolize', sans-serif;*/
 
     @media print {
       .cardside1{
-        width: 263px !important;
-        height: 150px !important;
+        width: 360px !important;
+        height: 225px !important;
         background-color: #141414 !important;
         color: #45D40C !important;
         margin: 100px !important;
@@ -40,6 +40,7 @@ font-family: 'Electrolize', sans-serif;*/
       .header{
         position: absolute;
         font-family: 'Roboto Mono', monospace;
+        font-size: 25px;
         top: 5% !important;
         left: 35% !important;
       }
@@ -51,7 +52,7 @@ font-family: 'Electrolize', sans-serif;*/
         font-family: 'Oswald', sans-serif;
         top: 55% !important;
         left: 50% !important;
-        font-size: 8px !important;
+        font-size: 12px !important;
         line-height: 5px !important;
         margin-top: 0px !important;
         margin-bottom: 0px !important;
@@ -64,7 +65,7 @@ font-family: 'Electrolize', sans-serif;*/
         font-family: 'Electrolize', sans-serif;
         top: 22% !important;
         left: 41% !important;
-        font-size: 10px !important;
+        font-size: 15px !important;
         line-height: 5px !important;
         margin-top: 0px !important;
         margin-bottom: 0px !important;
@@ -77,22 +78,22 @@ font-family: 'Electrolize', sans-serif;*/
     @media print {
       .cardside2{
         text-align: center !important;
-        width: 263px !important;
-        height: 150px !important;
-        font-size: 7px;
+        width: 360px !important;
+        height: 225px !important;
+        font-size: 10px;
         font-weight: bolder;
         background-color: #F7F4EA !important;
         font-family: 'Diplomata SC', cursive;
         color: #001514 !important;
         margin: 100px !important;
         -webkit-print-color-adjust: exact;
-        line-height: 1px !important;
+        line-height: 5px !important;
       }
     }
 
     @media print {
       .pmargin{
-        margin-top: 110px !important;
+        margin-top: 140px !important;
       }
     }
 
@@ -111,30 +112,30 @@ font-family: 'Electrolize', sans-serif;*/
 
   @media print {
     .platypus{
-      height: 150px !important;
+      height: 250px !important;
       width: auto !important;
-      top: 0% !important;
-      left: -20% !important;
+      top: -10% !important;
+      left: -23% !important;
       position: absolute !important;
     }
   }
 
   @media print {
     .phone{
-      height: 55px !important;
+      height: 70px !important;
       width: auto !important;
-      top: 60% !important;
-      left: 30% !important;
+      top: 61% !important;
+      left: 33% !important;
       position: absolute !important;
     }
   }
 
   @media print {
     .terminal{
-      height: 90px !important;
+      height: 100px !important;
       width: auto !important;
-      top: 470px !important;
-      left: 187px !important;
+      top: 565px !important;
+      left: 233px !important;
       position: absolute !important;
     }
   }
